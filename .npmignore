@@ -2,3 +2,8 @@ test/
 src/
 .vs/
 *.tgz
+# Ignore TypeScript configuration files (not needed in package)
+tsconfig.json
+tsconfig.*.json
+tsconfig.cjs.json
+tsconfig.esm.json

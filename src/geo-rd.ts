@@ -36,7 +36,7 @@ function provinceByCode(code: string=""): Province | undefined {
  * @param {string} name - Nombre de la provincia
  * @returns {Array<Province>}
 */
-function provinceByName(name: string = ""): Province | undefined  {
+function provinceByName(name: string = ""): Province | undefined {
   if (!name) return undefined;
 	return provinces.find((A: Province) => A.Name.toLowerCase() === name.toLowerCase().trim());
 }
@@ -62,8 +62,8 @@ function excludeProvinceByCode(codes: string | string[]): Province[] {
  * Lista de Municipios
  * @returns {Array<Municipalities>}
 */
-function municipalitiesAll(): Array<Municipalities> {
-  return municipalities;
+function municipalitiesAll(): Array<Province> {
+ 	return municipalities;
 }
 
 /**
@@ -73,7 +73,7 @@ function municipalitiesAll(): Array<Municipalities> {
 */
 function municipalitiesByCode(code: string=""): Municipalities | undefined {
   if (!code) return undefined;
-  return municipalities.find((A: Municipalities) => A.Code === code.trim());
+	return municipalities.find((A: Municipalities) => A.Code === code.trim());
 }
 
 /**
@@ -81,9 +81,9 @@ function municipalitiesByCode(code: string=""): Municipalities | undefined {
  * @param {string} name - Nombre de la Municipios
  * @returns {Array<Municipalities>}
 */
-function municipalitiesByName(name: string = ""): Municipalities | undefined  {
+function municipalitiesByName(name: string = ""): Municipalities | undefined {
   if (!name) return undefined;
-  return municipalities.find((A: Municipalities) => A.Name.toLowerCase() === name.toLowerCase().trim());
+	return municipalities.find((A: Province) => A.Name.toLowerCase() === name.toLowerCase().trim());
 }
 
 /**
@@ -94,39 +94,13 @@ function municipalitiesByName(name: string = ""): Municipalities | undefined  {
 function municipalitiesByNameLike(name:string = ""): Municipalities[]  {
   if (!name) return [];
   const search = name.toLowerCase().trim();
-  return municipalities.filter((A: Municipalities) => A.Name.toLowerCase().includes(search));
+  return municipalities.filter((A: Province) => A.Name.toLowerCase().includes(search));
 }
-
-/**
- * Filtra Municipios excluyendo por codigo
- * @param {string} code - Codigo de Municipios
- * @returns {Array<Municipalities>}
- */
 
 function excludeMunicipalitiesByCode(codes: string | string[]): Municipalities[] {
   const list = Array.isArray(codes) ? codes : [codes];
-  return municipalities.filter((A: Municipalities) => !list.includes(A.Code));
-}
-
-/**
- * Filtra Municipios excluyendo por codigo de Provincias
- * @param {string} code - Codigo de Provincias
- * @returns {Array<Municipalities>}
- */
-function excludeMunicipalitiesByProvince(codes: string | string[]): Municipalities[] {
-  const list = Array.isArray(codes) ? codes : [codes];
-  return municipalities.filter((A: Municipalities) => !list.includes(A.Province));
-}
-
-/**
- * Filtra Municipios por codigo de Provincias
- * @param {string} code - Codigo de Provincias
- * @returns {Array<Municipalities>}
- */
-function municipalitiesByProvince(codes: string | string[]): Municipalities[] {
-  const list = Array.isArray(codes) ? codes : [codes];
-  return municipalities.filter((A: Municipalities) => list.includes(A.Province));
+  return municipalities.filter((A: Province) => !list.includes(A.Code));
 }
 
 
-export { provinceAll, provinceByCode, provinceByName, provinceByNameLike, excludeProvinceByCode, municipalitiesAll, municipalitiesByCode, municipalitiesByName, municipalitiesByNameLike, excludeMunicipalitiesByCode, excludeMunicipalitiesByProvince, municipalitiesByProvince};
+export { provinceAll, provinceByCode, provinceByName, provinceByNameLike, excludeProvinceByCode, municipalitiesAll, municipalitiesByCode, municipalitiesByName, municipalitiesByNameLike, excludeMunicipalitiesByCode};
