@@ -1,0 +1,130 @@
+[
+	{
+		"Code": "010000",
+		"Name": "Distrito Nacional"
+	},
+	{
+		"Code": "020000",
+		"Name": "Azua"
+	},
+	{
+		"Code": "030000",
+		"Name": "Bahoruco"
+	},
+	{
+		"Code": "040000",
+		"Name": "Barahona"
+	},
+	{
+		"Code": "050000",
+		"Name": "Dajabón"
+	},
+	{
+		"Code": "060000",
+		"Name": "Duarte"
+	},
+	{
+		"Code": "070000",
+		"Name": "Elias Piña"
+	},
+	{
+		"Code": "080000",
+		"Name": "El Seibo"
+	},
+	{
+		"Code": "090000",
+		"Name": "Espaillat"
+	},
+	{
+		"Code": "100000",
+		"Name": "Independencia"
+	},
+	{
+		"Code": "110000",
+		"Name": "La Altagracia"
+	},
+	{
+		"Code": "120000",
+		"Name": "La Romana"
+	},
+	{
+		"Code": "130000",
+		"Name": "La Vega"
+	},
+	{
+		"Code": "140000",
+		"Name": "María Trinidad Sánchez"
+	},
+	{
+		"Code": "150000",
+		"Name": "Monte Cristi"
+	},
+	{
+		"Code": "160000",
+		"Name": "Pedernales"
+	},
+	{
+		"Code": "170000",
+		"Name": "Peravia"
+	},
+	{
+		"Code": "180000",
+		"Name": "Puerto Plata"
+	},
+	{
+		"Code": "190000",
+		"Name": "Hermanas Mirabal"
+	},
+	{
+		"Code": "200000",
+		"Name": "Samaná"
+	},
+	{
+		"Code": "210000",
+		"Name": "San Cristóbal"
+	},
+	{
+		"Code": "220000",
+		"Name": "San Juan"
+	},
+	{
+		"Code": "230000",
+		"Name": "San Pedro de Macorís"
+	},
+	{
+		"Code": "240000",
+		"Name": "Sánchez Ramírez"
+	},
+	{
+		"Code": "250000",
+		"Name": "Santiago"
+	},
+	{
+		"Code": "260000",
+		"Name": "Santiago Rodríguez"
+	},
+	{
+		"Code": "270000",
+		"Name": "Valverde"
+	},
+	{
+		"Code": "280000",
+		"Name": "Monseñor Nouel"
+	},
+	{
+		"Code": "290000",
+		"Name": "Monte Plata"
+	},
+	{
+		"Code": "300000",
+		"Name": "Hato Mayor"
+	},
+	{
+		"Code": "310000",
+		"Name": "San José de Ocoa"
+	},
+	{
+		"Code": "320000",
+		"Name": "Santo Domingo"
+	}
+]
