@@ -1,6 +1,6 @@
 {
   "name": "geo-rd",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Librería ligera para trabajar con las divisiones geográficas de la República Dominicana (provincias y municipios).",
   "main": "dist/geo-rd.js",
   "module": "dist/geo-rd.mjs",
@@ -23,7 +23,8 @@
     "territorial-division",
     "provinces-RD",
     "dominican-republic",
-    "dominican-developers"
+    "dominican-developers",
+    "backend"
   ],
   "author": "Carlos Ismael .Y .R",
   "license": "MIT",

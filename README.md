@@ -81,6 +81,7 @@ Resumen de las funciones principales que exporta `dist/geo-rd.js`:
 - municipalitiesByProvince(codes: string | string[]): Municipalities[]
 	- Devuelve los municipios que pertenecen a las provincias indicadas.
 
+
 ### Tipos exportados
 
 - Province
@@ -112,6 +113,49 @@ const ms = municipalitiesByProvince('250000');
 ```js
 municipalitiesByNameLike('santiago');
 // -> devuelve municipios cuyo nombre contiene 'santiago'
+```
+
+**API - Distritos**
+
+- **`districtsAll()`**: Array<District>
+	- Retorna todos los distritos cargados desde `data/Distritos.json`.
+
+- **`districtsByCode(code: string)`**: District | undefined
+	- Busca un distrito por su código exacto. Devuelve `undefined` si no hay coincidencia.
+
+- **`districtsByName(name: string)`**: District | undefined
+	- Busca un distrito cuyo nombre coincida exactamente (case-insensitive) con `name`.
+
+- **`districtsByNameLike(name: string)`**: Array<District>
+	- Busca todos los distritos cuyo nombre contenga la subcadena `name` (case-insensitive).
+
+- **`districtsByProvince(code: string | string[])`**: Array<District>
+	- Devuelve los distritos que pertenecen a las provincias indicadas (por código o array de códigos).
+
+- **`districtsByMunicipality(code: string | string[])`**: Array<District>
+	- Devuelve los distritos que pertenecen a los municipios indicados (por código o array de códigos).
+
+- **`excludeDistrictByCode(codes: string | string[])`**: Array<District>
+	- Excluye distritos por código y retorna el resto.
+
+- **`excludeDistrictByMunicipality(codes: string | string[])`**: Array<District>
+	- Excluye distritos que pertenecen a los municipios indicados.
+
+- **`excludeDistrictByProvince(codes: string | string[])`**: Array<District>
+	- Excluye distritos que pertenecen a las provincias indicadas.
+
+**Tipo `District`**
+
+- Shape: `{ Code: string; Name: string; MunicipalityCode: string; ProvinceCode: string }`
+
+**Ejemplos (CommonJS)**
+
+```js
+const { districtsAll, districtsByMunicipality, districtsByNameLike } = require('geo-rd');
+
+console.log(districtsAll());
+console.log(districtsByMunicipality('080100'));
+console.log(districtsByNameLike('Centro'));
 ```
 
 ## Notas y buenas prácticas

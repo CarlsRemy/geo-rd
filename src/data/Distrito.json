@@ -1,0 +1,1345 @@
+[
+	{"Code": "010101",  "Name":  "Santo Domingo de Guzmán",  "Province": "100000", "Municipality": "010100" },
+	{"Code": "020101",  "Name":  "Azua",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020102",  "Name":  "Barro Arriba",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020103",  "Name":  "Las Barías-La Estancia",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020104",  "Name":  "Los Jovillos",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020105",  "Name":  "Puerto Viejo",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020106",  "Name":  "Barreras",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020107",  "Name":  "Doña Emma Balaguer Viuda Vallejo",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020108",  "Name":  "Clavellina",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020109",  "Name":  "Las Lomas",  "Province": "200000", "Municipality": "020100" },
+	{"Code": "020201",  "Name":  "Las Charcas",  "Province": "200000", "Municipality": "020200" },
+	{"Code": "020202",  "Name":  "Palmar de Ocoa",  "Province": "200000", "Municipality": "020200" },
+	{"Code": "020301",  "Name":  "Las Yayas de Viajama",  "Province": "200000", "Municipality": "020300" },
+	{"Code": "020302",  "Name":  "Villarpando",  "Province": "200000", "Municipality": "020300" },
+	{"Code": "020303",  "Name":  "Hato Nuevo Cortés",  "Province": "200000", "Municipality": "020300" },
+	{"Code": "020401",  "Name":  "Padre Las Casas",  "Province": "200000", "Municipality": "020400" },
+	{"Code": "020402",  "Name":  "Las Lagunas",  "Province": "200000", "Municipality": "020400" },
+	{"Code": "020403",  "Name":  "La Siembra",  "Province": "200000", "Municipality": "020400" },
+	{"Code": "020404",  "Name":  "Monte Bonito",  "Province": "200000", "Municipality": "020400" },
+	{"Code": "020405",  "Name":  "Los Fríos",  "Province": "200000", "Municipality": "020400" },
+	{"Code": "020501",  "Name":  "Peralta",  "Province": "200000", "Municipality": "020500" },
+	{"Code": "020601",  "Name":  "Sabana Yegua",  "Province": "200000", "Municipality": "020600" },
+	{"Code": "020602",  "Name":  "Proyecto 4",  "Province": "200000", "Municipality": "020600" },
+	{"Code":  "020603",  "Name":  "Ganadero",  "Province": "200000", "Municipality": "020600" },
+	{"Code":  "020604",  "Name":  "Proyecto 2-C",  "Province": "200000", "Municipality": "020600" },
+	{"Code": "020701",  "Name":  "Pueblo Viejo",  "Province": "200000", "Municipality": "020700" },
+	{"Code": "020702",  "Name":  "El Rosario",  "Province": "200000", "Municipality": "020700" },
+	{"Code": "020801",  "Name":  "Tábara Arriba",  "Province": "200000", "Municipality": "020800" },
+	{"Code": "020802",  "Name":  "Tábara Abajo",  "Province": "200000", "Municipality": "020800" },
+	{"Code": "020803",  "Name":  "Amiama Gómez",  "Province": "200000", "Municipality": "020800" },
+	{"Code": "020901",  "Name":  "Guayabal",  "Province": "200000", "Municipality": "020900" },
+	{"Code": "021001",  "Name":  "Estebanía",  "Province": "200000", "Municipality": "021000" },
+	{"Code": "030101",  "Name":  "Neiba",  "Province": "300000", "Municipality": "030100" },
+	{"Code": "030102",  "Name":  "El Palmar",  "Province": "300000", "Municipality": "030100" },
+	{"Code": "030201",  "Name":  "Galván",  "Province": "300000", "Municipality": "030200" },
+	{"Code": "030202",  "Name":  "El Salado",  "Province": "300000", "Municipality": "030200" },
+	{"Code": "030301",  "Name":  "Tamayo",  "Province": "300000", "Municipality": "030300" },
+	{"Code": "030302",  "Name":  "Uvilla",  "Province": "300000", "Municipality": "030300" },
+	{"Code": "030303",  "Name":  "Santana",  "Province": "300000", "Municipality": "030300" },
+	{"Code": "030304",  "Name":  "Monserrate (Montserrat)",  "Province": "300000", "Municipality": "030300" },
+	{"Code": "030305",  "Name":  "Cabeza de Toro",  "Province": "300000", "Municipality": "030300" },
+	{"Code": "030306",  "Name":  "Mena",  "Province": "300000", "Municipality": "030300" },
+	{"Code": "030307",  "Name":  "Santa Bárbara el 6",  "Province": "300000", "Municipality": "030300" },
+	{"Code": "030401",  "Name":  "Villa Jaragua",  "Province": "300000", "Municipality": "030400" },
+	{"Code": "030501",  "Name":  "Los Ríos",  "Province": "300000", "Municipality": "030500" },
+	{"Code": "030502",  "Name":  "Las Clavellinas",  "Province": "300000", "Municipality": "030500" },
+	{"Code": "040101",  "Name":  "Barahona",  "Province": "400000", "Municipality": "040100" },
+	{"Code": "040102",  "Name":  "El Cachón",  "Province": "400000", "Municipality": "040100" },
+	{"Code": "040103",  "Name":  "La Guázara",  "Province": "400000", "Municipality": "040100" },
+	{"Code": "040104",  "Name":  "Villa Central",  "Province": "400000", "Municipality": "040100" },
+	{"Code": "040201",  "Name":  "Cabral",  "Province": "400000", "Municipality": "040200" },
+	{"Code": "040301",  "Name":  "Enriquillo",  "Province": "400000", "Municipality": "040300" },
+	{"Code": "040302",  "Name":  "Arroyo Dulce",  "Province": "400000", "Municipality": "040300" },
+	{"Code": "040401",  "Name":  "Paraíso",  "Province": "400000", "Municipality": "040400" },
+	{"Code": "040402",  "Name":  "Los Patos",  "Province": "400000", "Municipality": "040400" },
+	{"Code": "040501",  "Name":  "Vicente Noble",  "Province": "400000", "Municipality": "040500" },
+	{"Code": "040502",  "Name":  "Canoa",  "Province": "400000", "Municipality": "040500" },
+	{"Code": "040503",  "Name":  "Quita Coraza",  "Province": "400000", "Municipality": "040500" },
+	{"Code": "040504",  "Name":  "Fondo Negro",  "Province": "400000", "Municipality": "040500" },
+	{"Code": "040601",  "Name":  "El Peñon",  "Province": "400000", "Municipality": "040600" },
+	{"Code": "040701",  "Name":  "La Ciénaga",  "Province": "400000", "Municipality": "040700" },
+	{"Code": "040702",  "Name":  "Bahoruco",  "Province": "400000", "Municipality": "040700" },
+	{"Code": "040801",  "Name":  "Fundación",  "Province": "400000", "Municipality": "040800" },
+	{"Code":  "040802",  "Name":  "Pescadería",  "Province": "400000", "Municipality": "040800" },
+	{"Code":  "040901",  "Name":  "Las Salinas",  "Province": "400000", "Municipality": "040900" },
+	{"Code":  "041001",  "Name":  "Polo",  "Province": "400000", "Municipality": "041000" },
+	{"Code":  "041101",  "Name":  "Jaquimeyes",  "Province": "400000", "Municipality": "041100" },
+	{"Code":  "041102",  "Name":  "Palo Alto",  "Province": "400000", "Municipality": "041100" },
+	{"Code": "050101", "Name": "Dajabón", "Province": "050000", "Municipality": "050100" },
+	{"Code": "050102", "Name": "Cañongo",  "Province": "050000", "Municipality": "050100" },
+	{"Code": "050103", "Name": "Capotillo",  "Province": "050000", "Municipality": "050100" },
+	{"Code": "050104", "Name": "Mata Palacio",  "Province": "050000", "Municipality": "050100" },
+	{"Code": "050201", "Name": "Loma de Cabrera",  "Province": "050000", "Municipality": "050200" },
+	{"Code": "050202", "Name": "Capotillo",  "Province": "050000", "Municipality": "050200" },
+	{"Code": "050203", "Name": "Santiago de la Cruz",  "Province": "050000", "Municipality": "050200" },
+	{"Code": "050301", "Name": "Partido",  "Province": "050000", "Municipality": "050300" },
+	{"Code": "050401", "Name": "Restauración",  "Province": "050000", "Municipality": "050400" },
+	{"Code": "050501", "Name": "El Pino",  "Province": "050000", "Municipality": "050500" },
+	{"Code": "050502", "Name": "Manuel Bueno",  "Province": "050000", "Municipality": "050500" },
+	{"Code": "060101", "Name": "San Francisco de Macorís",  "Province": "060000", "Municipality": "060100" },
+	{"Code": "060102", "Name": "La Peña",  "Province": "060000", "Municipality": "060100" },
+	{"Code": "060103", "Name": "Cenovi",  "Province": "060000", "Municipality": "060100" },
+	{"Code": "060104", "Name": "Jaya",  "Province": "060000",  "Municipality": "060100" },
+	{"Code": "060105", "Name": "Presidente Don Antonio Guzmán Fernández",  "Province": "060000",  "Municipality": "060100" },
+	{"Code": "060201", "Name": "Arenoso",  "Province": "060000", "Municipality": "060200" },
+	{"Code": "060202", "Name": "Las Coles",  "Province": "060000", "Municipality": "060200" },
+	{"Code": "060203", "Name": "El Aguacate",  "Province": "060000", "Municipality": "060200" },
+  {"Code": "060301", "Name": "Castillo",  "Province": "060000", "Municipality": "060300" },
+	{"Code": "060401", "Name": "Pimentel",  "Province": "060000", "Municipality": "060400" },
+	{"Code": "060501", "Name": "Villa Riva",  "Province": "060000", "Municipality": "060500" },
+	{"Code": "060502", "Name": "Agua Santa del Yuna",  "Province": "060000", "Municipality": "060500" },
+	{"Code": "060503", "Name": "Cristo Rey de Guaraguao",  "Province": "060000", "Municipality": "060500" },
+	{"Code": "060504", "Name": "Las Taranas",  "Province": "060000", "Municipality": "060500" },
+	{"Code": "060505", "Name": "Barraquito",  "Province": "060000", "Municipality": "060500" },
+	{"Code": "060601", "Name": "Las Guáranas",  "Province": "060000", "Municipality": "060600" },
+	{"Code": "060701", "Name": "Eugenio María de Hostos",  "Province": "060000", "Municipality": "060700" },
+	{"Code": "060702", "Name": "Sabana Grande",  "Province": "060000", "Municipality": "060700" },
+	{"Code": "070101", "Name": "Comendador",  "Province": "070000", "Municipality": "070100" },
+	{"Code": "070102", "Name": "Sabana Larga",  "Province":  "070000",  "Municipality":  "070100" },
+	{"Code": "070103", "Name": "Guayabo",  "Province":  "070000",  "Municipality":  "070100" },
+	{"Code": "070201", "Name": "Bánica",  "Province":  "070000",  "Municipality":  "070200" },
+	{ "Code": "070202", "Name": "Sabana Cruz",  "Province":  "070000",  "Municipality":  "070200" },
+	{ "Code": "070203", "Name": "Sabana Higüero",  "Province":  "070000",  "Municipality":  "070200" },
+	{ "Code": "070301", "Name": "El Llano",  "Province":  "070000",  "Municipality":  "070300" },
+	{ "Code": "070302", "Name": "Guanito",  "Province":  "070000",  "Municipality":  "070300" },
+	{ "Code": "070401", "Name": "Hondo Valle",  "Province":  "070000",  "Municipality":  "070400" },
+	{ "Code": "070402", "Name": "Rancho de la Guardia",  "Province":  "070000",  "Municipality":  "070400" },
+	{ "Code": "070501", "Name": "Pedro Santana",  "Province":  "070000",  "Municipality":  "070500" },
+	{ "Code": "070502", "Name": "Río Limpio",  "Province":  "070000",  "Municipality":  "070500" },
+	{ "Code": "070601", "Name": "Juan Santiago",  "Province":  "070000",  "Municipality":  "070600" },
+	{ "Code": "080101", "Name": "El Seibo",  "Province":  "080000",  "Municipality":  "080100" },
+  {
+        "Code": "080102",
+        "Name": "Pedro Sánchez",
+        "Province": "080000",
+        "Municipality": "080100"
+    },
+    {
+        "Code": "080103",
+        "Name": "San Francisco-vicentillo",
+        "Province": "080000",
+        "Municipality": "080100"
+    },
+    {
+        "Code": "080104",
+        "Name": "Santa Lucía",
+        "Province": "080000",
+        "Municipality": "080100"
+    },
+    {
+        "Code": "080201",
+        "Name": "Miches",
+        "Province": "080000",
+        "Municipality": "080200"
+    },
+    {
+        "Code": "080202",
+        "Name": "El Cedro",
+        "Province": "080000",
+        "Municipality": "080200"
+    },
+    {
+        "Code": "080203",
+        "Name": "La Gina",
+        "Province": "080000",
+        "Municipality": "080200"
+    },
+    {
+        "Code": "090101",
+        "Name": "Moca",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090102",
+        "Name": "José Contreras",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090103",
+        "Name": "San Víctor",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090104",
+        "Name": "Juan López",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090105",
+        "Name": "Las Lagunas",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090106",
+        "Name": "Canca La Reyna",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090107",
+        "Name": "El Higüerito",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090108",
+        "Name": "Monte De La Jagua",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090109",
+        "Name": "La Ortega",
+        "Province": "090000",
+        "Municipality": "090100"
+    },
+    {
+        "Code": "090201",
+        "Name": "Cayetano Germosén",
+        "Province": "090000",
+        "Municipality": "090200"
+    },
+    {
+        "Code": "090301",
+        "Name": "Gaspar Hernández",
+        "Province": "090000",
+        "Municipality": "090300"
+    },
+    {
+        "Code": "090302",
+        "Name": "Joba Arriba",
+        "Province": "090000",
+        "Municipality": "090300"
+    },
+    {
+        "Code": "090303",
+        "Name": "Veragua",
+        "Province": "090000",
+        "Municipality": "090300"
+    },
+    {
+        "Code": "090304",
+        "Name": "Villa Magante",
+        "Province": "090000",
+        "Municipality": "090300"
+    },
+    {
+        "Code": "090401",
+        "Name": "Jamao Al Norte",
+        "Province": "090000",
+        "Municipality": "090400"
+    },
+    {
+        "Code": "100101",
+        "Name": "Jimaní",
+        "Province": "100000",
+        "Municipality": "100100"
+    },
+    {
+        "Code": "100102",
+        "Name": "El Limón",
+        "Province": "100000",
+        "Municipality": "100100"
+    },
+    {
+        "Code": "100103",
+        "Name": "Boca De Cachón",
+        "Province": "100000",
+        "Municipality": "100100"
+    },
+    {
+        "Code": "100201",
+        "Name": "Duvergé",
+        "Province": "100000",
+        "Municipality": "100200"
+    },
+    {
+        "Code": "100202",
+        "Name": "Vengan A Ver",
+        "Province": "100000",
+        "Municipality": "100200"
+    },
+    {
+        "Code": "100301",
+        "Name": "La Descubierta",
+        "Province": "100000",
+        "Municipality": "100300"
+    },
+    {
+        "Code": "100401",
+        "Name": "Postrer Río",
+        "Province": "100000",
+        "Municipality": "100400"
+    },
+    {
+        "Code": "100402",
+        "Name": "Guayabal",
+        "Province": "100000",
+        "Municipality": "100400"
+    },
+    {
+        "Code": "100501",
+        "Name": "Cristóbal",
+        "Province": "100000",
+        "Municipality": "100500"
+    },
+    {
+        "Code": "100502",
+        "Name": "Batey 8",
+        "Province": "100000",
+        "Municipality": "100500"
+    },
+    {
+        "Code": "100601",
+        "Name": "Mella",
+        "Province": "100000",
+        "Municipality": "100600"
+    },
+    {
+        "Code": "100602",
+        "Name": "La Colonia",
+        "Province": "110000",
+        "Municipality": "100600"
+    },
+    {
+        "Code": "110101",
+        "Name": "Higüey",
+        "Province": "110000",
+        "Municipality": "110100"
+    },
+    {
+        "Code": "110102",
+        "Name": "Las Lagunas De Nisibón",
+        "Province": "110000",
+        "Municipality": "110100"
+    },
+    {
+        "Code": "110103",
+        "Name": "La Otra Banda",
+        "Province": "110000",
+        "Municipality": "110100"
+    },
+    {
+        "Code": "110103",
+        "Name": "La Otra Banda",
+        "Province": "110000",
+        "Municipality": "110100"
+    },
+    {
+        "Code": "110104",
+        "Name": "Verón Punta Cana (incluye Bávaro)",
+        "Province": "110000",
+        "Municipality": "110100"
+    },
+    {
+        "Code": "110201",
+        "Name": "San Rafael Del Yuma",
+        "Province": "110000",
+        "Municipality": "110200"
+    },
+    {
+        "Code": "110202",
+        "Name": "Boca De Yuma",
+        "Province": "110000",
+        "Municipality": "110200"
+    },
+    {
+        "Code": "110203",
+        "Name": "Bayahíbe",
+        "Province": "110000",
+        "Municipality": "110200"
+    },
+    {
+        "Code": "120101",
+        "Name": "La Romana",
+        "Province": "120000",
+        "Municipality": "120100"
+    },
+    {
+        "Code": "120102",
+        "Name": "Caleta",
+        "Province": "120000",
+        "Municipality": "120100"
+    },
+    {
+        "Code": "120201",
+        "Name": "Guaymate",
+        "Province": "120000",
+        "Municipality": "120200"
+    },
+    {
+        "Code": "120301",
+        "Name": "Villa Hermosa",
+        "Province": "120000",
+        "Municipality": "120300"
+    },
+    {
+        "Code": "120302",
+        "Name": "Cumayasa",
+        "Province": "120000",
+        "Municipality": "120300"
+    },
+    {
+        "Code": "130101",
+        "Name": "La Vega",
+        "Province": "130000",
+        "Municipality": "130100"
+    },
+    {
+        "Code": "130102",
+        "Name": "Río Verde Arriba",
+        "Province": "130000",
+        "Municipality": "130100"
+    },
+    {
+        "Code": "130103",
+        "Name": "El Ranchito",
+        "Province": "130000",
+        "Municipality": "130100"
+    },
+    {
+        "Code": "130104",
+        "Name": "Taveras",
+        "Province": "130000",
+        "Municipality": "130100"
+    },
+    {
+        "Code": "130105",
+        "Name": "Don Juan Rodríguez",
+        "Province": "130000",
+        "Municipality": "130100"
+    },
+    {
+        "Code": "130201",
+        "Name": "Constanza",
+        "Province": "130000",
+        "Municipality": "130200"
+    },
+    {
+        "Code": "130202",
+        "Name": "Tireo",
+        "Province": "130000",
+        "Municipality": "130200"
+    },
+    {
+        "Code": "130203",
+        "Name": "La Sabina",
+        "Province": "130000",
+        "Municipality": "130200"
+    },
+    {
+        "Code": "130301",
+        "Name": "Jarabacoa",
+        "Province": "130000",
+        "Municipality": "130300"
+    },
+    {
+        "Code": "130302",
+        "Name": "Buena Vista",
+        "Province": "130000",
+        "Municipality": "130300"
+    },
+    {
+        "Code": "130303",
+        "Name": "Manabao",
+        "Province": "130000",
+        "Municipality": "130300"
+    },
+    {
+        "Code": "130401",
+        "Name": "Jima Abajo",
+        "Province": "130000",
+        "Municipality": "130400"
+    },
+    {
+        "Code": "130402",
+        "Name": "Rincón",
+        "Province": "130000",
+        "Municipality": "130400"
+    },
+    {
+        "Code": "140101",
+        "Name": "Nagua",
+        "Province": "140000",
+        "Municipality": "140100"
+    },
+    {
+        "Code": "140102",
+        "Name": "San José De Matanzas",
+        "Province": "140000",
+        "Municipality": "140100"
+    },
+    {
+        "Code": "140103",
+        "Name": "Las Gordas",
+        "Province": "140000",
+        "Municipality": "140100"
+    },
+    {
+        "Code": "140104",
+        "Name": "Arroyo Al Medio",
+        "Province": "140000",
+        "Municipality": "140100"
+    },
+    {
+        "Code": "140201",
+        "Name": "Cabrera",
+        "Province": "140200",
+        "Municipality": "140200"
+    },
+    {
+        "Code": "140202",
+        "Name": "Arroyo Salado",
+        "Province": "140200",
+        "Municipality": "140200"
+    },
+    {
+        "Code": "140203",
+        "Name": "La Entrada",
+        "Province": "140200",
+        "Municipality": "140200"
+    },
+    {
+        "Code": "140301",
+        "Name": "El Factor",
+        "Province": "140300",
+        "Municipality": "140300"
+    },
+    {
+        "Code": "140302",
+        "Name": "El Pozo",
+        "Province": "140300",
+        "Municipality": "140300"
+    },
+    {
+        "Code": "140401",
+        "Name": "Río San Juan",
+        "Province": "140400",
+        "Municipality": "140400"
+    },
+    {
+        "Code": "150101",
+        "Name": "Monte Cristi",
+        "Province": "150000",
+        "Municipality": "150100"
+    },
+    {
+        "Code": "150201",
+        "Name": "Castañuelas",
+        "Province": "150000",
+        "Municipality": "150200"
+    },
+    {
+        "Code": "150202",
+        "Name": "Palo Verde",
+        "Province": "150000",
+        "Municipality": "150200"
+    },
+    {
+        "Code": "150301",
+        "Name": "Guayubín",
+        "Province": "150000",
+        "Municipality": "150300"
+    },
+    {
+        "Code": "150302",
+        "Name": "Villa Elisa",
+        "Province": "150000",
+        "Municipality": "150300"
+    },
+    {
+        "Code": "150303",
+        "Name": "Hatillo Palma",
+        "Province": "150000",
+        "Municipality": "150300"
+    },
+    {
+        "Code": "150304",
+        "Name": "Cana Chapetón",
+        "Province": "150000",
+        "Municipality": "150300"
+    },
+    {
+        "Code": "150400",
+        "Name": "Municipio Las Matas De Santa Cruz",
+        "Province": "150000",
+        "Municipality": "150400"
+    },
+    {
+        "Code": "150401",
+        "Name": "Las Matas De Santa Cruz",
+        "Province": "150000",
+        "Municipality": "150400"
+    },
+    {
+        "Code": "150502",
+        "Name": "Santa María",
+        "Province": "150000",
+        "Municipality": "150500"
+    },
+    {
+        "Code": "160102",
+        "Name": "José Francisco Peña Gómez",
+        "Province": "160000",
+        "Municipality": "160100"
+    },
+    {
+        "Code": "160202",
+        "Name": "Juancho",
+        "Province": "160200",
+        "Municipality": "160200"
+    },
+    {
+        "Code": "170101",
+        "Name": "Baní",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170102",
+        "Name": "Matanzas",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170103",
+        "Name": "Villa Fundación",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170104",
+        "Name": "Sabana Buey",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170105",
+        "Name": "Paya",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170106",
+        "Name": "Villa Sombrero",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170107",
+        "Name": "El Carretón",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170108",
+        "Name": "Catalina",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170109",
+        "Name": "El Limonal",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170109",
+        "Name": "El Limonal",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170110",
+        "Name": "Las Barías",
+        "Province": "170000",
+        "Municipality": "170100"
+    },
+    {
+        "Code": "170202",
+        "Name": "Pizarrete",
+        "Province": "170000",
+        "Municipality": "170200"
+    },
+    {
+        "Code": "170203",
+        "Name": "Santana",
+        "Province": "170000",
+        "Municipality": "170200"
+    },
+    {
+        "Code": "180101",
+        "Name": "Puerto Plata",
+        "Province": "180000",
+        "Municipality": "180100"
+    },
+    {
+        "Code": "180102",
+        "Name": "Yásica Arriba",
+        "Province": "180000",
+        "Municipality": "180100"
+    },
+    {
+        "Code": "180103",
+        "Name": "Maimón",
+        "Province": "180000",
+        "Municipality": "180100"
+    },
+    {
+        "Code": "180202",
+        "Name": "Río Grande",
+        "Province": "180000",
+        "Municipality": "180200"
+    },
+    {
+        "Code": "180502",
+        "Name": "Navas",
+        "Province": "180000",
+        "Municipality": "180500"
+    },
+    {
+        "Code": "180602",
+        "Name": "La Isabela",
+        "Province": "180000",
+        "Municipality": "180600"
+    },
+    {
+        "Code": "180603",
+        "Name": "Belloso",
+        "Province": "180000",
+        "Municipality": "180600"
+    },
+    {
+        "Code": "180604",
+        "Name": "El Estrecho De Luperón Omar Bross",
+        "Province": "180000",
+        "Municipality": "180600"
+    },
+    {
+        "Code": "180702",
+        "Name": "Cabarete",
+        "Province": "180000",
+        "Municipality": "180700"
+    },
+    {
+        "Code": "180703",
+        "Name": "Sabaneta De Yásica",
+        "Province": "180000",
+        "Municipality": "180700"
+    },
+    {
+        "Code": "180802",
+        "Name": "Estero Hondo",
+        "Province": "180000",
+        "Municipality": "180800"
+    },
+    {
+        "Code": "180803",
+        "Name": "La Jaiba",
+        "Province": "180000",
+        "Municipality": "180800"
+    },
+    {
+        "Code": "180804",
+        "Name": "Gualete",
+        "Province": "180000",
+        "Municipality": "180800"
+    },
+    {
+        "Code": "190102",
+        "Name": "Jamao Afuera",
+        "Province": "190000",
+        "Municipality": "190100"
+    },
+    {
+        "Code": "190202",
+        "Name": "Blanco",
+        "Province": "190000",
+        "Municipality": "190200"
+    },
+    {
+        "Code": "200102",
+        "Name": "El Limón",
+        "Province": "200000",
+        "Municipality": "200100"
+    },
+    {
+        "Code": "200103",
+        "Name": "Arroyo Barril",
+        "Province": "200000",
+        "Municipality": "200100"
+    },
+    {
+        "Code": "200104",
+        "Name": "Las Galeras",
+        "Province": "200000",
+        "Municipality": "200100"
+    },
+    {
+        "Code": "200201",
+        "Name": "Sánchez",
+        "Province": "200000",
+        "Municipality": "200200"
+    },
+    {
+        "Code": "210101",
+        "Name": "San Cristóbal",
+        "Province": "210000",
+        "Municipality": "210100"
+    },
+    {
+        "Code": "210102",
+        "Name": "Hato Damas",
+        "Province": "210000",
+        "Municipality": "210100"
+    },
+    {
+        "Code": "210103",
+        "Name": "Hatillo",
+        "Province": "210000",
+        "Municipality": "210100"
+    },
+    {
+        "Code": "210201",
+        "Name": "Sabana Grande De Palenque",
+        "Province": "210000",
+        "Municipality": "210200"
+    },
+    {
+        "Code": "210302",
+        "Name": "El Carril",
+        "Province": "210000",
+        "Municipality": "210300"
+    },
+    {
+        "Code": "210303",
+        "Name": "Quita Sueño",
+        "Province": "210000",
+        "Municipality": "210300"
+    },
+    {
+        "Code": "210402",
+        "Name": "Cambita El Pueblecito",
+        "Province": "210000",
+        "Municipality": "210400"
+    },
+    {
+        "Code": "210502",
+        "Name": "San José Del Puerto",
+        "Province": "210000",
+        "Municipality": "210500"
+    },
+    {
+        "Code": "210503",
+        "Name": "Medina",
+        "Province": "210000",
+        "Municipality": "210500"
+    },
+    {
+        "Code": "210504",
+        "Name": "La Cuchilla",
+        "Province": "210000",
+        "Municipality": "210500"
+    },
+    {
+        "Code": "210601",
+        "Name": "Yaguate",
+        "Province": "210000",
+        "Municipality": "210600"
+    },
+    {
+        "Code": "210602",
+        "Name": "Doña Ana",
+        "Province": "210000",
+        "Municipality": "210600"
+    },
+    {
+        "Code": "210801",
+        "Name": "Los Cacaos",
+        "Province": "210000",
+        "Municipality": "210800"
+    },
+    {
+        "Code": "220102",
+        "Name": "Pedro Corto",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220103",
+        "Name": "Sabaneta",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220104",
+        "Name": "Sabana Alta",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220105",
+        "Name": "El Rosario",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220106",
+        "Name": "Hato Del Padre",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220107",
+        "Name": "Guanito",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220108",
+        "Name": "La Jagua",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220109",
+        "Name": "Las Maguanas-hato Nuevo",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220110",
+        "Name": "Las Charcas De María Nova",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220111",
+        "Name": "Las Zanjas",
+        "Province": "220000",
+        "Municipality": "220100"
+    },
+    {
+        "Code": "220202",
+        "Name": "Arroyo Cano",
+        "Province": "220000",
+        "Municipality": "220200"
+    },
+    {
+        "Code": "220203",
+        "Name": "Yaque",
+        "Province": "220000",
+        "Municipality": "220200"
+    },
+    {
+        "Code": "220302",
+        "Name": "Derrumbadero",
+        "Province": "220000",
+        "Municipality": "220300"
+    },
+    {
+        "Code": "220303",
+        "Name": "Batista",
+        "Province": "220000",
+        "Municipality": "220300"
+    },
+    {
+        "Code": "220402",
+        "Name": "Jínova",
+        "Province": "220000",
+        "Municipality": "220400"
+    },
+    {
+        "Code": "220502",
+        "Name": "Matayaya",
+        "Province": "220000",
+        "Municipality": "220500"
+    },
+    {
+        "Code": "220503",
+        "Name": "Carrera De Yeguas",
+        "Province": "220000",
+        "Municipality": "220500"
+    },
+    {
+        "Code": "220602",
+        "Name": "Jorjillo",
+        "Province": "220000",
+        "Municipality": "220600"
+    },
+    {
+        "Code": "230202",
+        "Name": "El Puerto",
+        "Province": "230000",
+        "Municipality": "230200"
+    },
+    {
+        "Code": "230203",
+        "Name": "Gautier",
+        "Province": "230000",
+        "Municipality": "230200"
+    },
+    {
+        "Code": "240102",
+        "Name": "Quita Sueño",
+        "Province": "240000",
+        "Municipality": "240100"
+    },
+    {
+        "Code": "240103",
+        "Name": "Caballero",
+        "Province": "240000",
+        "Municipality": "240100"
+    },
+    {
+        "Code": "240104",
+        "Name": "Comedero Arriba",
+        "Province": "240000",
+        "Municipality": "240100"
+    },
+    {
+        "Code": "240105",
+        "Name": "Platanal",
+        "Province": "240000",
+        "Municipality": "240100"
+    },
+    {
+        "Code": "240202",
+        "Name": "La Cueva",
+        "Province": "240000",
+        "Municipality": "240200"
+    },
+    {
+        "Code": "240402",
+        "Name": "La Bija",
+        "Province": "240000",
+        "Municipality": "240400"
+    },
+    {
+        "Code": "240403",
+        "Name": "Angelina",
+        "Province": "240000",
+        "Municipality": "240400"
+    },
+    {
+        "Code": "240404",
+        "Name": "Hernando Alonzo",
+        "Province": "240000",
+        "Municipality": "240400"
+    },
+    {
+        "Code": "250102",
+        "Name": "Pedro García",
+        "Province": "250000",
+        "Municipality": "250100"
+    },
+    {
+        "Code": "250104",
+        "Name": "Baitoa",
+        "Province": "250000",
+        "Municipality": "250100"
+    },
+    {
+        "Code": "250105",
+        "Name": "La Canela",
+        "Province": "250000",
+        "Municipality": "250100"
+    },
+    {
+        "Code": "250106",
+        "Name": "San Francisco De Jacagua",
+        "Province": "250000",
+        "Municipality": "250100"
+    },
+    {
+        "Code": "250107",
+        "Name": "Hato Del Yaque",
+        "Province": "250000",
+        "Municipality": "250100"
+    },
+    {
+        "Code": "250201",
+        "Name": "Villa Bisonó (navarrete)",
+        "Province": "250000",
+        "Municipality": "250200"
+    },
+    {
+        "Code": "250302",
+        "Name": "Juncalito",
+        "Province": "250000",
+        "Municipality": "250300"
+    },
+    {
+        "Code": "250303",
+        "Name": "El Caimito",
+        "Province": "250000",
+        "Municipality": "250300"
+    },
+    {
+        "Code": "250402",
+        "Name": "Las Palomas",
+        "Province": "250000",
+        "Municipality": "250400"
+    },
+    {
+        "Code": "250502",
+        "Name": "El Rubio",
+        "Province": "250000",
+        "Municipality": "250500"
+    },
+    {
+        "Code": "250503",
+        "Name": "La Cuesta",
+        "Province": "250000",
+        "Municipality": "250500"
+    },
+    {
+        "Code": "250504",
+        "Name": "Las Placetas",
+        "Province": "250000",
+        "Municipality": "250500"
+    },
+    {
+        "Code": "250602",
+        "Name": "Canca La Piedra",
+        "Province": "250000",
+        "Municipality": "250600"
+    },
+    {
+        "Code": "250702",
+        "Name": "Palmar Arriba",
+        "Province": "250000",
+        "Municipality": "250700"
+    },
+    {
+        "Code": "250703",
+        "Name": "El Limón",
+        "Province": "250000",
+        "Municipality": "250700"
+    },
+    {
+        "Code": "250802",
+        "Name": "Guayabal",
+        "Province": "250000",
+        "Municipality": "250800"
+    },
+    {
+        "Code": "250803",
+        "Name": "Canabacoa",
+        "Province": "250000",
+        "Municipality": "250800"
+    },
+    {
+        "Code": "260101",
+        "Name": "San Ignacio De Sabaneta",
+        "Province": "260000",
+        "Municipality": "260100"
+    },
+    {
+        "Code": "260201",
+        "Name": "Villa Los Almácigos",
+        "Province": "260000",
+        "Municipality": "260200"
+    },
+    {
+        "Code": "260301",
+        "Name": "Monción",
+        "Province": "260000",
+        "Municipality": "260300"
+    },
+    {
+        "Code": "270101",
+        "Name": "Mao",
+        "Province": "270000",
+        "Municipality": "270100"
+    },
+    {
+        "Code": "270102",
+        "Name": "Amina",
+        "Province": "270000",
+        "Municipality": "270100"
+    },
+    {
+        "Code": "270103",
+        "Name": "Jaibón (pueblo Nuevo)",
+        "Province": "270000",
+        "Municipality": "270100"
+    },
+    {
+        "Code": "270104",
+        "Name": "Guatapanal",
+        "Province": "270000",
+        "Municipality": "270100"
+    },
+    {
+        "Code": "270202",
+        "Name": "Maizal",
+        "Province": "270000",
+        "Municipality": "270200"
+    },
+    {
+        "Code": "270203",
+        "Name": "Jicomé",
+        "Province": "270000",
+        "Municipality": "270200"
+    },
+    {
+        "Code": "270204",
+        "Name": "Boca De Mao",
+        "Province": "270000",
+        "Municipality": "270200"
+    },
+    {
+        "Code": "270205",
+        "Name": "Paradero",
+        "Province": "270000",
+        "Municipality": "270200"
+    },
+    {
+        "Code": "270301",
+        "Name": "Laguna Salada",
+        "Province": "270000",
+        "Municipality": "270300"
+    },
+    {
+        "Code": "270302",
+        "Name": "Jaibón",
+        "Province": "270000",
+        "Municipality": "270300"
+    },
+    {
+        "Code": "270303",
+        "Name": "La Caya",
+        "Province": "270000",
+        "Municipality": "270300"
+    },
+    {
+        "Code": "270304",
+        "Name": "Cruce De Guayacanes",
+        "Province": "270000",
+        "Municipality": "270300"
+    },
+    {
+        "Code": "280101",
+        "Name": "Bonao",
+        "Province": "280000",
+        "Municipality": "280100"
+    },
+    {
+        "Code": "280102",
+        "Name": "Sabana Del Puerto",
+        "Province": "280000",
+        "Municipality": "280100"
+    },
+    {
+        "Code": "280103",
+        "Name": "Juma Bejucal",
+        "Province": "280000",
+        "Municipality": "280100"
+    },
+    {
+        "Code": "280104",
+        "Name": "Arroyo Toro - Masipedro",
+        "Province": "280000",
+        "Municipality": "280100"
+    },
+    {
+        "Code": "280105",
+        "Name": "Jayaco",
+        "Province": "280000",
+        "Municipality": "280100"
+    },
+    {
+        "Code": "280106",
+        "Name": "La Salvia - Los Quemados",
+        "Province": "280000",
+        "Municipality": "280100"
+    },
+    {
+        "Code": "280201",
+        "Name": "Maimón",
+        "Province": "280000",
+        "Municipality": "280200"
+    },
+    {
+        "Code": "280301",
+        "Name": "Piedra Blanca",
+        "Province": "280000",
+        "Municipality": "280300"
+    },
+    {
+        "Code": "280302",
+        "Name": "Villa De Sonador",
+        "Province": "280000",
+        "Municipality": "280300"
+    },
+    {
+        "Code": "280303",
+        "Name": "Juan Adrián",
+        "Province": "280000",
+        "Municipality": "280300"
+    },
+    {
+        "Code": "290101",
+        "Name": "Monte Plata",
+        "Province": "290000",
+        "Municipality": "290100"
+    },
+    {
+        "Code": "290102",
+        "Name": "Don Juan",
+        "Province": "290000",
+        "Municipality": "290100"
+    },
+    {
+        "Code": "290103",
+        "Name": "Chirino",
+        "Province": "290000",
+        "Municipality": "290100"
+    },
+	{"Code": "290104",  "Name":  "Boyá",  "Province": "290000", "Municipality": "290100" },
+	{"Code": "290201",  "Name":  "Bayaguana",  "Province": "290000", "Municipality": "290200" },
+	{"Code": "290301",  "Name":  "Sabana Grande de Boyá",  "Province": "290000", "Municipality": "290300" },
+	{"Code": "290302",  "Name":  "Gonzalo",  "Province": "290000", "Municipality": "290300" },
+	{"Code": "290303",  "Name":  "Majagual",  "Province": "290000", "Municipality": "290300" },
+	{"Code": "290401",  "Name":  "Yamasá",  "Province": "290000", "Municipality": "290400" },
+	{"Code": "290402",  "Name":  "Los Botados",  "Province": "290000", "Municipality": "290400" },
+	{"Code": "290403",  "Name":  "Mamá Tingó",  "Province": "290000", "Municipality": "290400" },
+	{"Code": "290501",  "Name":  "Peralvillo",  "Province": "290000", "Municipality": "290500" },
+	{"Code": "300101",  "Name":  "Hato Mayor",  "Province":  "310000", "Municipality": "300100" },
+	{"Code": "300102",  "Name":  "Yerba Buena",  "Province":  "310000", "Municipality": "300100" },
+	{"Code": "300103",  "Name":  "Mata Palacio",  "Province":  "310000", "Municipality": "300100" },
+	{"Code": "300104",  "Name":  "Guayabo Dulce",  "Province":  "310000", "Municipality": "300100" },
+	{"Code": "300201",  "Name":  "Sabana de la Mar",  "Province":  "310000", "Municipality": "300200" },
+	{"Code": "300202",  "Name":  "Elupina Cordero de las Cañitas",  "Province":  "310000", "Municipality": "300200" },
+	{"Code": "300301",  "Name":  "El Valle",  "Province":  "310000", "Municipality": "300300" },
+	{"Code": "310101",  "Name":  "San José de Ocoa",  "Province":  "310000", "Municipality": "310100" },
+	{"Code": "310102",  "Name":  "La Ciénega",  "Province":  "310000", "Municipality": "310100" },
+	{"Code": "310103",  "Name":  "Nizao - Las Auyamas",  "Province":  "310000", "Municipality": "310100" },
+	{"Code": "310104",  "Name":  "La Pinar",  "Province":  "310000", "Municipality": "310100" },
+	{"Code": "310105",  "Name":  "El Naranjal",  "Province":  "310000", "Municipality": "310100" },
+	{"Code": "310201",  "Name":  "Sabana Larga",  "Province":  "310000", "Municipality": "310200" },
+	{"Code": "310301",  "Name":  "Rancho Arriba",  "Province":  "310000", "Municipality": "310300" },
+	{"Code": "320101",  "Name":  "Santo Domingo Este",  "Province":  "320000", "Municipality": "320100" },
+	{"Code": "320102",  "Name":  "San Luis",  "Province":  "320000", "Municipality": "320100" },
+	{"Code": "320201",  "Name":  "Santo Domingo Oeste",  "Province":  "320000", "Municipality": "320200" },
+	{"Code": "320301",  "Name":  "Santo Domingo Norte",  "Province":  "320000", "Municipality": "320300" },
+	{"Code": "320302",  "Name":  "La Victoria",  "Province":  "320000", "Municipality": "320300" },
+	{"Code": "320401",  "Name":  "Boca Chica",  "Province":  "320000", "Municipality": "320400" },
+	{"Code": "320402",  "Name":  "La Caleta",  "Province":  "320000", "Municipality": "320400" },
+	{"Code": "320501",  "Name":  "San Antonio de Guerra",  "Province":  "320000", "Municipality": "320500" },
+	{"Code": "320502",  "Name":  "Hato Viejo",  "Province":  "320000", "Municipality": "320500" },
+	{"Code": "320601",  "Name":  "Los Alcarrizos",  "Province":  "320000", "Municipality": "320600" },
+	{"Code": "320602",  "Name":  "Palmarejo-Villa Linda",  "Province":  "320000", "Municipality": "320600" },
+	{"Code": "320603",  "Name":  "Pantoja",  "Province":  "320000", "Municipality": "320600" },
+	{"Code": "320701",  "Name":  "Pedro Brand",  "Province":  "320000", "Municipality": "320700" },
+	{"Code": "320702",  "Name":  "La Guáyiga",  "Province":  "320000", "Municipality": "320700" },
+	{"Code": "320703",  "Name":  "La Cuaba",  "Province":  "320000", "Municipality": "320700" }
+]
