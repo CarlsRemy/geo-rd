@@ -1,4 +1,4 @@
-import { normalizeString } from './utils/normalize';
+import { normalizeString } from './utils/normalize.js';
 import municipalities from './data/Municipios.json'
 
 

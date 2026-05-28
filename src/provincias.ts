@@ -1,5 +1,5 @@
 import provinces from './data/Provincias.json'
-import { normalizeString } from './utils/normalize';
+import { normalizeString } from './utils/normalize.js';
 
 export interface Province {
   Code: string;

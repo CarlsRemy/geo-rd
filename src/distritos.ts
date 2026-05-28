@@ -1,4 +1,4 @@
-import { normalizeString } from './utils/normalize';
+import { normalizeString } from './utils/normalize.js';
 import districts from './data/Distrito.json'
 
 export interface District {

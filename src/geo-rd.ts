@@ -1,4 +1,4 @@
-export * from './provincias';
-export * from './municipios';
-export * from './distritos';
-export { normalizeString } from './utils/normalize';
+export * from './provincias.js';
+export * from './municipios.js';
+export * from './distritos.js';
+export { normalizeString } from './utils/normalize.js';
