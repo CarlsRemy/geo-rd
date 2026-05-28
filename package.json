@@ -1,8 +1,8 @@
 {
   "name": "geo-rd",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Librería ligera para trabajar con las divisiones geográficas de la República Dominicana (provincias y municipios).",
-  "main": "dist/geo-rd.js",
+  "main": "dist/geo-rd.cjs",
   "module": "dist/geo-rd.mjs",
   "types": "dist/geo-rd.d.ts",
   "type": "module",
@@ -10,10 +10,22 @@
     ".": {
       "import": "./dist/geo-rd.mjs",
       "require": "./dist/geo-rd.cjs"
+    },
+    "./provincias": {
+      "import": "./dist/provincias.mjs",
+      "require": "./dist/provincias.cjs"
+    },
+    "./municipios": {
+      "import": "./dist/municipios.mjs",
+      "require": "./dist/municipios.cjs"
+    },
+    "./distritos": {
+      "import": "./dist/distritos.mjs",
+      "require": "./dist/distritos.cjs"
     }
   },
   "scripts": {
-    "tsup": "tsup src/geo-rd.ts --dts --format esm,cjs --minify --out-dir dist",
+    "tsup": "tsup src/geo-rd.ts src/provincias.ts src/municipios.ts src/distritos.ts --dts --format esm,cjs --minify --out-dir dist",
     "build": "npm run tsup",
     "test": "ts-mocha test/*"
   },
@@ -27,6 +39,7 @@
     "backend"
   ],
   "author": "Carlos Ismael .Y .R",
+  
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.5.8",

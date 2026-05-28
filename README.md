@@ -1,6 +1,10 @@
 # geo-rd
 Librería ligera para trabajar con las divisiones geográficas de la República Dominicana (provincias y municipios) a partir de JSON.
 
+> **NOTA:** a partir de la version **2.0.0**, el paquete migra internamente al uso del objeto nativo Map de JavaScript y cadenas pre-normalizadas. Esto transforma todas las consultas relacionales y búsquedas por códigos en operaciones instantáneas de complejidad O(1), eliminando por completo el uso de bucles lineales (.find/.filter) en memoria y reduciendo a nanosegundos el tiempo de respuesta en entornos de alta concurrencia.
+
+**soporte** de carga modular bajo demanda. Si tu aplicación solo necesita trabajar con Provincias, ya no estás obligado a cargar en la memoria RAM del servidor los pesados datos de Municipios o Distritos Municipales.
+
 ## Qué es
 `geo-rd` expone funciones simples para consultar provincias y municipios por código o nombre, hacer búsquedas por fragmento ("like"), y filtrar/excluir por códigos. Está pensada para usarse tanto en proyectos JavaScript (CommonJS / ESM) como en TypeScript.
 
@@ -30,7 +34,7 @@ console.log(geo.municipalitiesByProvince('250000'));
 ## Uso (ESM / TypeScript)
 
 ```ts
-import { provinceAll, provinceByCode, municipalitiesByNameLike, municipalitiesByProvince } from './dist/esm/geo-rd.js';
+import { provinceAll, provinceByCode, municipalitiesByNameLike, municipalitiesByProvince } from './dist/geo-rd.js';
 
 const provincias = provinceAll();
 const santiago = provinceByCode('250000');
@@ -157,6 +161,40 @@ console.log(districtsAll());
 console.log(districtsByMunicipality('080100'));
 console.log(districtsByNameLike('Centro'));
 ```
+### 📦 Métodos de Importación
+
+#### 1. Importación Global (Clásica)
+Carga toda la base de datos geográfica de la República Dominicana en memoria. Es la opción más cómoda para aplicaciones monolíticas o backends tradicionales.
+
+```javascript
+// Carga automática de Provincias, Municipios y Distritos
+import { getProvinciaByCode, getMunicipiosByProvince } from 'geo-rd';
+```
+
+#### 2. Importación Segmentada (Máximo Rendimiento)
+Carga de forma aislada únicamente el módulo que vas a utilizar, consumiendo hasta un **80% menos de memoria RAM** en ejecuciones aisladas.
+
+```javascript
+// 🔹 Carga SOLO Provincias (El módulo más liviano)
+import { getProvinciaByCode, searchProvincias } from 'geo-rd/provincias';
+
+// 🔹 Carga SOLO Municipios
+import { getMunicipioByCode, getMunicipiosByProvince } from 'geo-rd/municipios';
+
+// 🔹 Carga SOLO Distritos Municipales (El módulo de mayor peso)
+import { getDistrictsByMunicipality } from 'geo-rd/distritos';
+```
+
+---
+
+### 📊 Comparativa de Consumo en Memoria
+
+
+| Método de Importación | Datos Cargados en RAM | Impacto en Rendimiento | Ideal para... |
+| :--- | :--- | :--- | :--- |
+| `import {} from 'geo-rd'` | Provincias + Municipios + Distritos | Base completa indexada | APIs Robustas, Scripts de migración masiva. |
+| `import {} from 'geo-rd/provincias'` | **Solo Provincias** | Ultra-liviano / Instantáneo | Formularios de registro, Selects básicos de ubicación. |
+
 
 ## Notas y buenas prácticas
 

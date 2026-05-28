@@ -1,7 +1,7 @@
 // test.ts
-const { expect, assert } = require("chai");
-const { describe, it } = require("mocha");
-const { provinceAll, provinceByCode, provinceByName, provinceByNameLike, excludeProvinceByCode, municipalitiesAll, municipalitiesByCode, municipalitiesByName, municipalitiesByNameLike, excludeMunicipalitiesByCode, excludeMunicipalitiesByProvince, municipalitiesByProvince } = require("../src/geo-rd");
+import { expect, assert } from 'chai';
+import { describe, it } from "mocha";
+import { provinceAll, provinceByCode, provinceByName, provinceByNameLike, excludeProvinceByCode, municipalitiesAll, municipalitiesByCode, municipalitiesByName, municipalitiesByNameLike, excludeMunicipalitiesByCode, excludeMunicipalitiesByProvince, municipalitiesByProvince } from "../dist/geo-rd.cjs";
 
 describe('Province', () => {
 	it("debería retornar la provincia por código", async () => {
@@ -18,9 +18,11 @@ describe('Province', () => {
 
 	it("debería retornar la provincia por nombre similar", async () => {
 		const expectedResult = [
+			{ Code: '140000', Name: 'María Trinidad Sánchez' },
 			{ Code: '210000', Name: 'San Cristóbal' },
 			{ Code: '220000', Name: 'San Juan' },
 			{ Code: '230000', Name: 'San Pedro de Macorís' },
+			{ Code: '240000', Name: 'Sánchez Ramírez' },
 			{ Code: '250000', Name: 'Santiago' },
 			{ Code: '260000', Name: 'Santiago Rodríguez' },
 			{ Code: '310000', Name: 'San José de Ocoa' },

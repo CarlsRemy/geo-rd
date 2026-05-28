@@ -7,3 +7,4 @@ tsconfig.json
 tsconfig.*.json
 tsconfig.cjs.json
 tsconfig.esm.json
+tsup.config.ts
